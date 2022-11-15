@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ul {
+  border: 4px solid black;
+}
+
+.main-container {
+  justify-content: space-between;
+  margin: 0 15%;
+}
+
+.main-container > * {
+  width: 40%;
+}
+
+.score-header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+#form {
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  padding: 5px;
+}
+
+.submit {
+  align-self: flex-end;
+}
+
+.scoreslist {
+  margin: 0;
+  padding: 0;
+}
+
+.scoreslist li {
+  list-style: none;
+  padding: 1px 5px;
+}
+
+.scoreslist li:nth-child(even) {
+  background: rgb(202, 202, 202);
+}

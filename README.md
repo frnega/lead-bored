@@ -17,7 +17,7 @@ In this activity you will set up a JavaScript project for the Leaderboard list a
 
 **Instructions on how to access this project locally.**
  To Access my project locally please follow the following instructions;
-1. clone the project from link: https://github.com/frnega/Leaderboard
+1. clone the project from link: https://github.com/frnega/Lead-board
 2. open it on ur vs code and start using it 
 
 

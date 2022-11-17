@@ -9,12 +9,12 @@ body {
 }
 
 .ul {
-  border: 4px solid black;
+  border: 2px solid black;
 }
 
 .main-container {
   justify-content: space-between;
-  margin: 0 15%;
+  margin: 0 14%;
 }
 
 .main-container > * {

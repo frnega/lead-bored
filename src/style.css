@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-image: url(../image/leadbored.jpg);
 }
 
 .d-flex {
@@ -19,6 +20,10 @@ body {
 
 .main-container > * {
   width: 40%;
+}
+
+.header{
+  color: brown;
 }
 
 .score-header {
@@ -50,5 +55,9 @@ input {
 }
 
 .scoreslist li:nth-child(even) {
-  background: rgb(202, 202, 202);
+  background: rgb(197, 162, 162);
+}
+
+.scoreslist li:nth-child(odd) {
+  background: #fff;
 }
